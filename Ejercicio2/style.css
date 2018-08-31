@@ -12,7 +12,6 @@ table{
 
 .black-tile{
     background-color: black;
-    visibility: visible;
 }
 .black-tile:hover{
     background-color: brown;
@@ -21,15 +20,16 @@ table{
 
 
 .white-tile{
-
     background-color: white;
 }
 .white-tile:hover{
     background-color: brown;
-    visibility: visible;
 }
+
+
 
 td div{
     width: 100px;
     height: 100px;
+    visibility: hidden;
 }
