@@ -11,7 +11,7 @@ nav{
     2.2. Padding de 10px.
 */
 .logo-container{
-    display: inline;;
+    display: inline;
     padding: 10px;
 }
 /*
@@ -118,7 +118,7 @@ label{
     14.2 Margen derecho e izquierdo de 15%.
 */
 .section-footer{
-    display: inline;
+    display: inline-block;
     margin-left: 15%;
     margin-right: 15%;
 }
@@ -164,7 +164,6 @@ input[type="submit"]{
     color: white;
     font-weight: bold;
     border-radius: 4px;
-    width: 60%;
     font-size: 1rem;
 }
 /*
