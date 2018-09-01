@@ -1,10 +1,16 @@
+header{
+    padding: 1em;
+    background-color: rgba(138, 101, 0, 0.527);
+}
+
 h1{
     text-align: center;
 }
+
 table{
     
-    max-width: 1200px;
-    max-height: 1200px;
+    max-width: 70em;
+    max-height: 70em;
     margin: 2em auto;
     
 }
@@ -12,9 +18,11 @@ table{
 
 .black-tile{
     background-color: black;
+    color: white;
 }
-.black-tile:hover{
-    background-color: brown;
+.black-tile:hover div{
+    background-color: rgba(255, 0, 0, 0.5);
+    visibility: visible;
 }
 
 
@@ -22,14 +30,33 @@ table{
 .white-tile{
     background-color: white;
 }
-.white-tile:hover{
-    background-color: brown;
+.white-tile:hover div{
+    background-color: rgba(255, 0, 0, 0.5);
+    visibility: visible;
 }
 
 
 
 td div{
-    width: 100px;
-    height: 100px;
+    width: 4em;
+    height: 4em;
+    text-align: center;
     visibility: hidden;
+    font-size: 1.5em;
 }
+
+footer{
+    background-color: #2d3436;
+    padding: 20px;
+    color: white;
+}
+
+footer div {
+    display: inline;
+    margin: 2% 5%;
+}
+
+footer a{
+    color: white;
+}
+
