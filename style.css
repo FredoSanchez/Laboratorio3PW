@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+}
+
+a div{
+    padding: 0.5em;
+    font-size: 2em;
+    margin: 10px auto;
+    width: 90%;
+}
+
+.e1{
+    color: gray;
+    text-align: left;
+    background-color: rgba(172, 255, 47, 0.568);
+
+}
+.e1:hover{ 
+    background-color: rgb(172, 255, 47);
+}
+
+.e2{
+    text-align: center;
+    background-color: rgba(100, 237, 214, 0.322);
+}
+.e2:hover{
+    background-color:rgb(103, 247, 223) 
+}
+
+.e3{
+    text-align: right;
+    background-color: rgba(255, 99, 71, 0.507);
+}
+.e3:hover{
+    background-color: rgba(255, 99, 71, 0.897);
+}
