@@ -1,0 +1,117 @@
+div input{
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 0.3em;
+}
+#normal{
+    font-size: 0.9em;
+}
+
+#pequeño{
+    font-size: 0.5em;
+}
+
+#grande{
+    font-size: 1.4em;
+}
+
+#Cesmeralda{
+    color: white;
+    background-color: #00bb8f;
+}
+
+#Ccielo{
+    color: white;
+    background-color: skyblue;
+}
+
+#Camatista{
+    color: white;
+    background-color: #898ac0;
+}
+
+#Casfalto{
+    color: white;
+    background-color: #474b4e;
+}
+
+#Ctopazio{
+    color: white;
+    background-color: #ff7e00;
+}
+
+#Crubi{
+    color: white;
+    background-color: #9b111e;
+}
+
+#Bsimple{
+    background-color: white;
+    border: 0.5px solid black;
+    color: black;
+}
+
+#Besmeralda{
+    background-color: white;
+    border: 0.5px solid #00bb8f;
+    color: #00bb8f;
+}
+
+#Bcielo{
+    background-color: white;
+    border: 0.5px solid skyblue;
+    color: skyblue;
+}
+
+#Bamatista{
+    background-color: white;
+    border: 0.5px solid #898ac0;
+    color: #898ac0;
+}
+
+#Basfalto{
+    background-color: white;
+    border: 0.5px solid #474b4e;
+    color: #474b4e;
+}
+
+#Btopazio{
+    background-color: white;
+    border: 0.5px solid #ff7e00;
+    color: #ff7e00;
+}
+
+#Brubi{
+    background-color: white;
+    border: 0.5px solid #9b111e;
+    color: #9b111e;
+}
+
+#largo{
+    font-size: 1.4em;
+    color: white;
+    background-color: #474b4e;
+}
+
+#bordedelcielo{
+    font-size: 0.9em;
+    background-color: white;
+    border: 0.5px solid skyblue;
+    color: skyblue
+}
+
+#pequeñaesmeralda{
+    font-size: 0.5em;
+    color: white;
+    background-color: #00bb8f;
+}
+
+#granborderubi{
+    font-size: 1.4em;
+    background-color: white;
+    border: 0.5px solid #9b111e;
+    color: #9b111e;
+}
+#normal:hover, #pequeño:hover, #grande:hover{
+    border: solid pink 0.06em;
+}
